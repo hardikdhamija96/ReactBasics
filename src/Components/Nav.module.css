@@ -1,0 +1,23 @@
+.Nav{
+    display: flex;
+    height: 10vh;
+    /* background-color: aquamarine; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.Nav h1{
+    font-size: 50px;
+}
+
+.nav-list{
+    display: flex;
+    gap: 5vw;
+}
+
+.nav-list a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}

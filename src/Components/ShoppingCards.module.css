@@ -1,0 +1,13 @@
+.cardWrapper{
+    width: 300px;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cardWrapper img{
+    object-fit: cover;
+    height: 180px;
+    width: 280px;
+    margin: 0 auto;
+}

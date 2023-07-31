@@ -1,0 +1,12 @@
+.masterContainer{
+    background-color:rgb(150, 211, 88);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
