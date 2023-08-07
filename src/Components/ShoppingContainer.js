@@ -33,12 +33,30 @@ const ShoppingContainer = () => {
     {
       id: 4,
       name: 'Item 4',
-      category: 'Category 4',
+      category: 'Category 1',
       price: 9000,
       description: 'This is item 4 description.',
       image: 'https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60',
     },
-    // Add more items...
+    {
+      id: 5,
+      name: 'Item 5',
+      category: 'Category 3',
+      price: 5000,
+      description: 'This is item 5 description.',
+      image: 'https://images.unsplash.com/photo-1595341888016-a392ef81b7de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60',
+    },
+    {
+      id: 6,
+      name: 'Item 4',
+      category: 'Category 2',
+      price: 11000,
+      description: 'This is item 6 description.',
+      image: 'https://images.unsplash.com/photo-1543508282-6319a3e2621f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60',
+    },
+
+
+    // Can Add more items if required...
   ];
 
 

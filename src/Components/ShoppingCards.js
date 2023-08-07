@@ -7,8 +7,9 @@ const ShoppingCards = ({ item }) => {
       <img src={item.image} alt={item.name} />
       <h4>{item.category}</h4>
       <h1>{item.name}</h1>
-      <p>{item.description}</p>
-      <p>Price: &#8377;{item.price}</p>
+      <p className={styles.description}>{item.description}</p>
+      <p className={styles.priceText}>Price: &#8377;{item.price}</p>
+      <button className={styles.buyBtn}>Buy</button>
     </div>
   )
 }

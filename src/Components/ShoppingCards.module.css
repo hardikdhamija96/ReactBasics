@@ -1,8 +1,20 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
 .cardWrapper{
     width: 300px;
-    background-color: antiquewhite;
+    background-color: rgb(248, 252, 255);
+    border: 2px solid rgba(41, 39, 39, 0.37);
     padding: 10px;
     margin: 10px;
+    transition: all 0.2s ease-in-out;
+    overflow: hidden;
+}
+
+.cardWrapper:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgba(41, 39, 39, 0.532);
 }
 
 .cardWrapper img{
@@ -10,4 +22,60 @@
     height: 180px;
     width: 280px;
     margin: 0 auto;
+    overflow: hidden;
+    transition: all 0.2s ease-in;
 }
+
+.cardWrapper img:hover{
+    
+    transform: scale(1.1);
+}
+
+.cardWrapper h4{
+    text-align: left;
+    font-weight: 200;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+.cardWrapper h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 32px;
+    /* padding: 12px 0; */
+}
+
+.priceText{
+    text-align: center;
+    padding: 12px 0;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(14, 23, 14);
+}
+
+.description{
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.buyBtn{
+    width: 100%;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color:darkseagreen;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.buyBtn:hover{
+    background-color: rgb(59, 82, 59);
+    color: white;
+}
+
+
+
+
